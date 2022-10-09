@@ -1,0 +1,23 @@
+{
+  "name": "Business-Landing-Page",
+  "version": "1.0.0",
+  "description": "A business landing page made with HTML CSS and Bootstrap [Build to Learn]",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d Business-Landing-Page"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-c23/Business-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tushar-c23/Business-Landing-Page/issues"
+  },
+  "homepage": "https://tushar-c23.github.io/Business-Landing-Page",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
