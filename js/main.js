@@ -47,5 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // TOGGLE MOBILE NAV DROPDOWNS
+  
+  //INITIATE GLIGHTBOX
+  const glightbox = GLightBox({
+    selector: '.glightbox'
+  });
+  //INITIATE GLIGHTBOX
 })
+
 

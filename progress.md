@@ -17,3 +17,17 @@ Completed the hero animated section of the website which contains:
   - 1 GetStarted
   - 1 Watch Video (redirects to a youtube video)
 
+Completed the featured services part which uses column feature of Bootstrap. Made 2 configurations 4/item and 6/item. Each service item has:
+- Icon
+- Heading
+- Description
+
+Completed the About Us section which has several parts:
+- A big heading
+- A description
+- An image
+- Several pills which display different tabs which contain
+  - 3 Sections each. Each Section has
+    - A heading
+    - Description
+
