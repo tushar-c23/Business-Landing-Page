@@ -1,6 +1,8 @@
 # Business-Landing-Page
 A business landing page made with HTML CSS and Bootstrap [Build to Learn]
 
+# [Visit the site](https://tushar-c23.github.io/Business-Landing-Page/)
+
 ## Progress Record
 Go to [Progress](./progress.md).
 
