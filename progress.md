@@ -31,3 +31,13 @@ Completed the About Us section which has several parts:
     - A heading
     - Description
 
+## 10/10/2022
+Completed the clients section which has the logos of several clients and they are responsive to hover
+
+Completed the "Call To Action" section it has several elements. It is divided into 2 columns:
+1. First is of size 8/12. It has:
+   - A heading
+   - A description
+2. Second is of size 4/12. It has an image.
+Both the columns are responsive to window size and change accordingly to accomodate. On mobile the image comes first and then the content column.
+

@@ -15,8 +15,12 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Custom stylesheet -->
+    <!-- <link href="./css/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+    <!-- <link href="./css/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+    <!-- <link href="./css/aos/aos.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/_nav.css"> -->
 </head>
 
 <body>
@@ -212,7 +216,7 @@
 
                             </div><!-- TAB 1 END -->
 
-                            <div class="tab-pane fade show active" id="tab2">
+                            <div class="tab-pane fade show" id="tab2">
                                 <p class="fst-italic">Tab 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illum et dolorem sapiente commodi natus odit? Fugit distinctio quo consectetur tempora illo nulla corporis ratione quis consequatur. Ratione, beatae vitae!</p>
                                 
                                 <div class="d-flex align-items-center mt-4">
@@ -235,7 +239,7 @@
 
                             </div> <!--TAB 2 END-->
 
-                            <div class="tab-pane fade show active" id="tab3">
+                            <div class="tab-pane fade show" id="tab3">
                                 <p class="fst-italic">Tab 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illum et dolorem sapiente commodi natus odit? Fugit distinctio quo consectetur tempora illo nulla corporis ratione quis consequatur. Ratione, beatae vitae!</p>
                                 
                                 <div class="d-flex align-items-center mt-4">
@@ -270,15 +274,17 @@
 
         <!-- CLIENTS SECTION -->
 
-        <!-- <section id="clients" class="clients">
+        <section id="clients" class="clients">
             <div class="container" data-aos="zoom-out">
-                <div class="clients-slider swiper">
+                <div class="clients-slider ">
 
-                    <div class="swiper-wrapper align-items-center">
+                    <div class="d-flex align-items-baseline justify-content-between">
                         <div class="swiper-slide"><img src="assets/clients/client-1.png" class="img-fluid" alt="client"></div>
                         <div class="swiper-slide"><img src="assets/clients/client-2.png" class="img-fluid" alt="client"></div>
                         <div class="swiper-slide"><img src="assets/clients/client-3.png" class="img-fluid" alt="client"></div>
                         <div class="swiper-slide"><img src="assets/clients/client-4.png" class="img-fluid" alt="client"></div>
+                    </div>
+                    <div class="d-flex align-items-baseline justify-content-between">
                         <div class="swiper-slide"><img src="assets/clients/client-5.png" class="img-fluid" alt="client"></div>
                         <div class="swiper-slide"><img src="assets/clients/client-6.png" class="img-fluid" alt="client"></div>
                         <div class="swiper-slide"><img src="assets/clients/client-7.png" class="img-fluid" alt="client"></div>
@@ -286,9 +292,221 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- CLIENTS SECTION -->
+
+        <!-- CALL TO ACTION SECTION -->
+
+        <section class="cta" id="cta">
+            <div class="container" data-aos="zoom-out">
+                <div class="row g-5">
+                    <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+                        <h3>Lorem ipsum dolor sit, amet <em>consectetur</em> adipisicing elit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sunt recusandae pariatur ipsa quidem harum itaque veniam vitae dolorum, deleniti voluptates praesentium delectus, modi, laboriosam eos aspernatur earum dolor magnam.</p>
+                        <a href="#" class="cta-btn align-self-start">Call To Action</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+                        <div class="img">
+                            <img src="assets/cta.jpg" alt="cta" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION SECTION -->
+
+        <!-- ON FOCUS SECTION -->
+
+        <section id="onfocus" class="onfocus">
+            <div class="container-fluid p-0" data-aos="fade-up">
+                <div class="row g-0">
+                    <div class="col-lg-6 video-play position-relative">
+                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn" target="_blank"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content d-flex flex-column justify-content-center h-100">
+                            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolore totam tempora ipsum perspiciatis reiciendis natus cumque possimus nesciunt libero quibusdam, doloribus ducimus quasi ad magnam molestiae facilis atque asperiores!</p>
+                            <ul>
+                                <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quod magnil!</li>
+                                <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quod magnil!</li>
+                                <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quod magnil!</li>
+                            </ul>
+                            <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- ON FOCUS SECTION -->
+
+        <!-- FEATURES SECTION -->
+
+        <section class="features" id="features">
+            <div class="container" data-aos="fade-up">
+                <ul class="d-flex nav nav-tabs row gy-4">
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a href="" class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                            <i class="bi bi-binoculars color-cyan"></i>
+                            <h4>Feature 1</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            <i class="bi bi-box-seam color-indigo"></i>
+                            <h4>Feature 2</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            <i class="bi bi-brightness-high color-teal"></i>
+                            <h4>Feature 3</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                            <i class="bi bi-command color-red"></i>
+                            <h4>Feature 4</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+                            <i class="bi bi-easel color-blue"></i>
+                            <h4>Feature 5</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                        <a href="" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                            <i class="bi bi-map color-orange"></i>
+                            <h4>Feature 6</h4>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane active show" id="tab-1">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Feature 1</h3>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore aut quam! Quia quae consectetur delectus sint culpa doloremque, cum obcaecati facilis eos labore adipisci, harum ab unde. Voluptates, quisquam.
+                                </p>
+                                <ul>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestias quasi vel blanditiis impedit iusto adipisci, labore natus, neque nemo officiis obcaecati esse maxime eligendi atque. Et commodi molestiae facere?</p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/features-1.svg" alt="feature 1" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> <!--TAB 1-->
+                    <div class="tab-pane" id="tab-2">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Feature 2</h3>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore aut quam! Quia quae consectetur delectus sint culpa doloremque, cum obcaecati facilis eos labore adipisci, harum ab unde. Voluptates, quisquam.
+                                </p>
+                                <ul>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestias quasi vel blanditiis impedit iusto adipisci, labore natus, neque nemo officiis obcaecati esse maxime eligendi atque. Et commodi molestiae facere?</p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/features-2.svg" alt="feature 2" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> <!--TAB 2-->
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Feature 3</h3>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore aut quam! Quia quae consectetur delectus sint culpa doloremque, cum obcaecati facilis eos labore adipisci, harum ab unde. Voluptates, quisquam.
+                                </p>
+                                <ul>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestias quasi vel blanditiis impedit iusto adipisci, labore natus, neque nemo officiis obcaecati esse maxime eligendi atque. Et commodi molestiae facere?</p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/features-3.svg" alt="feature 3" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> <!--TAB 3-->
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Feature 4</h3>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore aut quam! Quia quae consectetur delectus sint culpa doloremque, cum obcaecati facilis eos labore adipisci, harum ab unde. Voluptates, quisquam.
+                                </p>
+                                <ul>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestias quasi vel blanditiis impedit iusto adipisci, labore natus, neque nemo officiis obcaecati esse maxime eligendi atque. Et commodi molestiae facere?</p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/features-4.svg" alt="feature 4" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> <!--TAB 4-->
+                    <div class="tab-pane" id="tab-5">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Feature 5</h3>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore aut quam! Quia quae consectetur delectus sint culpa doloremque, cum obcaecati facilis eos labore adipisci, harum ab unde. Voluptates, quisquam.
+                                </p>
+                                <ul>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestias quasi vel blanditiis impedit iusto adipisci, labore natus, neque nemo officiis obcaecati esse maxime eligendi atque. Et commodi molestiae facere?</p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/features-5.svg" alt="feature 5" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> <!--TAB 5-->
+                    <div class="tab-pane" id="tab-6">
+                        <div class="row gy-4">
+                            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Feature 6</h3>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore aut quam! Quia quae consectetur delectus sint culpa doloremque, cum obcaecati facilis eos labore adipisci, harum ab unde. Voluptates, quisquam.
+                                </p>
+                                <ul>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                    <li><i class="bi-check-circle-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum assumenda nobis quae veritatis accusamus nesciunt illum rerum? Nemo odio harum magnam porro dolorum ullam illum temporibus amet. Alias, velit commodi?</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis molestias quasi vel blanditiis impedit iusto adipisci, labore natus, neque nemo officiis obcaecati esse maxime eligendi atque. Et commodi molestiae facere?</p>
+                            </div>
+                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/features-6.svg" alt="feature 6" class="img-fluid">
+                            </div>
+                        </div>
+                    </div> <!--TAB 6-->
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
 
     </main>
 
