@@ -41,3 +41,21 @@ Completed the "Call To Action" section it has several elements. It is divided in
 2. Second is of size 4/12. It has an image.
 Both the columns are responsive to window size and change accordingly to accomodate. On mobile the image comes first and then the content column.
 
+Completed the "on focus" section.
+
+Completed the features section. It has several elements:
+- 6 different feature buttons/tabs which toggle the tab content displayed. Each tab contains:
+  - An image
+  - A heading
+  - A description
+  - An unordered list of description
+  - A footnote
+
+Completed the "Our Services" section. It has several elements:
+- A heading
+- A description
+- 6 services. Where each service has:
+  - An image (responsive to hover)
+  - An icon
+  - A heading
+  - A description
