@@ -31,3 +31,57 @@ Completed the About Us section which has several parts:
     - A heading
     - Description
 
+## 10/10/2022
+Completed the clients section which has the logos of several clients and they are responsive to hover
+
+Completed the "Call To Action" section it has several elements. It is divided into 2 columns:
+1. First is of size 8/12. It has:
+   - A heading
+   - A description
+2. Second is of size 4/12. It has an image.
+Both the columns are responsive to window size and change accordingly to accomodate. On mobile the image comes first and then the content column.
+
+Completed the "on focus" section.
+
+Completed the features section. It has several elements:
+- 6 different feature buttons/tabs which toggle the tab content displayed. Each tab contains:
+  - An image
+  - A heading
+  - A description
+  - An unordered list of description
+  - A footnote
+
+Completed the "Our Services" section. It has several elements:
+- A heading
+- A description
+- 6 services. Where each service has:
+  - An image (responsive to hover)
+  - An icon
+  - A heading
+  - A description
+
+## 11/10/2022
+Completed the "Our Pricing" section which has several elements:
+- A heading
+- A description
+- 3 boxes for 3 plans offered. Each box contains:
+  - A header which contains
+    - Plan Name
+    - Price of the plan
+  - An unordered list which lists all the inclusions and exclusions of the plan
+
+Completed the "FAQ" section which has several elements:
+- A big image
+- Several collapsable accordions with questions and collapsable answers. The answers are showed on click and are collapsed on next.
+
+Completed Portfolio Section
+
+Completed Our Team Section
+
+Completed Blogs Section
+
+## 12/10/2022
+
+Completed Contact Us Section
+
+Completed Footer
