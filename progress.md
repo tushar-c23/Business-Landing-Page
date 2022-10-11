@@ -74,14 +74,45 @@ Completed the "FAQ" section which has several elements:
 - A big image
 - Several collapsable accordions with questions and collapsable answers. The answers are showed on click and are collapsed on next.
 
-Completed Portfolio Section
+Completed Portfolio Section which has several elements:
+- A Heading
+- A description
+- Categories
+- Several images which when hovered display name and link icon
 
-Completed Our Team Section
+Completed Our Team Section which has several elements:
+- A heading
+- A decription
+- 3 Team member boxes
+  - An image
+  - Name
+  - Title
 
-Completed Blogs Section
+Completed Blogs Section which has several elements:
+- A heading
+- A sentence
+- 3 blog boxes
+  - An image
+  - Date and Author name
+  - A heading
+  - A brief description
+  - A ReadMore button
 
 ## 12/10/2022
 
-Completed Contact Us Section
+Completed Contact Us Section which has several elements:
+- A heading
+- A description
+- A map embed
+- A column with contact details
+- A form to contact
 
-Completed Footer
+Completed Footer which has several elements:
+- Brandname with address and contact
+- Usefull links
+- Our Services links
+- Newsletter subscription
+- Copyright line
+- Author Line
+- Credits
+- Social Media Links
