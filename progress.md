@@ -74,3 +74,14 @@ Completed the "FAQ" section which has several elements:
 - A big image
 - Several collapsable accordions with questions and collapsable answers. The answers are showed on click and are collapsed on next.
 
+Completed Portfolio Section
+
+Completed Our Team Section
+
+Completed Blogs Section
+
+## 12/10/2022
+
+Completed Contact Us Section
+
+Completed Footer
