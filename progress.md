@@ -59,3 +59,18 @@ Completed the "Our Services" section. It has several elements:
   - An icon
   - A heading
   - A description
+
+## 11/10/2022
+Completed the "Our Pricing" section which has several elements:
+- A heading
+- A description
+- 3 boxes for 3 plans offered. Each box contains:
+  - A header which contains
+    - Plan Name
+    - Price of the plan
+  - An unordered list which lists all the inclusions and exclusions of the plan
+
+Completed the "FAQ" section which has several elements:
+- A big image
+- Several collapsable accordions with questions and collapsable answers. The answers are showed on click and are collapsed on next.
+
